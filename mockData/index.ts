@@ -34,7 +34,7 @@ export const mockApplications: Application[] = [
     holdingOffer: false,
     contact: {
       email: "",
-      phone: "1234567890",
+      phone: null,
     },
     appliedOn: new Date("2021-07-02"),
     status: Status.REJECTED,
@@ -58,7 +58,7 @@ export const mockApplications: Application[] = [
     holdingOffer: true,
     contact: {
       email: "",
-      phone: "1234567890",
+      phone: null,
     },
     appliedOn: new Date("2021-07-03"),
     status: Status.SHORTLISTED,
@@ -82,7 +82,7 @@ export const mockApplications: Application[] = [
     holdingOffer: false,
     contact: {
       email: "",
-      phone: "1234567890",
+      phone: null,
     },
     appliedOn: new Date("2021-07-04"),
     status: Status.APPLIED,
@@ -107,7 +107,7 @@ export const mockApplications: Application[] = [
     holdingOffer: true,
     contact: {
       email: "",
-      phone: "1234567890",
+      phone: null,
     },
     appliedOn: new Date("2021-07-05"),
     status: Status.SHORTLISTED,

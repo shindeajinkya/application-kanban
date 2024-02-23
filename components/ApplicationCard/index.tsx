@@ -52,7 +52,7 @@ export const ApplicationCard: FC<IProps> = ({
       {application.profilePhoto ? (
         <img
           src={application.profilePhoto}
-          alt={application.name}
+          alt={application.name ?? "profile photo"}
           className="w-8 h-8 rounded-full"
         />
       ) : null}
