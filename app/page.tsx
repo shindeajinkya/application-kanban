@@ -78,7 +78,7 @@ export default function Home() {
               </div>
             ))}
         </div>
-        <div className="w-[212px] fixed lg:flex hidden border-r border-solid border-gray-200 h-full flex-shrink-0 max-h-screen pb-2 flex-col justify-between pr-6">
+        <div className="w-[212px] fixed lg:flex hidden border-r border-solid border-gray-200 h-full flex-shrink-0 max-h-screen pb-4 flex-col justify-between pr-6">
           <div>
             <div className="flex gap-1 py-2">
               <img src="/peerlist-logo.svg" className="h-8" />
@@ -174,7 +174,7 @@ export default function Home() {
                 ))}
               </div>
             </div>
-            <div className="flex flex-col lg:flex-row gap-2 lg:gap-0 justify-between lg:ml-[72px]">
+            <div className="flex flex-col lg:flex-row gap-2 lg:gap-0 justify-between lg:ml-[74px]">
               <div className="flex gap-4">
                 <p className="flex gap-0.5 text-xs text-gray-1k">
                   <span className="block font-semibold">97</span>
