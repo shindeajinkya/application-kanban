@@ -34,6 +34,7 @@ export default function Home() {
     const overId = over.id;
 
     const updatedApplications = applications.map((application) => {
+      if (application.status === overId) return application;
       if (application.id === activeId) {
         if (overId === Status.SHORTLISTED) {
           application.shortlisted = {
