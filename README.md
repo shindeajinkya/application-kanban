@@ -11,6 +11,7 @@
 3. using `@dnd-kit/core` for drag and drop functionality.
 4. types assumed for the application are present in the `types` folder.
 5. on mobile drag and drop is not visible, instead a simple list of applications is shown. (this can be further improved to show a modal to edit status of the application)
+6. the home page can further be divided into smaller components for better structure.
 
 
 ## Getting Started
