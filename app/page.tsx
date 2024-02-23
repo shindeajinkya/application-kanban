@@ -214,13 +214,17 @@ export default function Home() {
               />
             </div>
             <div className="lg:hidden flex flex-col w-full gap-4">
-              {applications.map((application) => (
-                <ApplicationCard
-                  key={application.id}
-                  application={application}
-                  dragDisabled={true}
-                />
-              ))}
+              {applications
+                .filter((application) =>
+                  matchApplication(application, null, query)
+                )
+                .map((application) => (
+                  <ApplicationCard
+                    key={application.id}
+                    application={application}
+                    dragDisabled={true}
+                  />
+                ))}
             </div>
             <DndContext onDragEnd={handleDragEnd}>
               <Kanban

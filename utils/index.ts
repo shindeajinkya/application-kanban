@@ -16,11 +16,11 @@ export const formatDateToLocaleString = (date: Date) =>
 
 export const matchApplication = (
   application: Application,
-  status: Status,
+  status: Status | null,
   query: string
 ) => {
   return (
-    application.status === status &&
+    (status === null ? true : application.status === status) &&
     (application.name?.toLowerCase().includes(query.toLowerCase()) ||
       application.company?.toLowerCase().includes(query.toLowerCase()) ||
       application.role?.toLowerCase().includes(query.toLowerCase()) ||
