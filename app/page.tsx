@@ -198,7 +198,7 @@ export default function Home() {
                 </p>
                 <p className="flex gap-0.5 text-xs text-gray-1k">
                   <span className="block text-gray-500">by</span>
-                  <span className="block font-semibold">Peter Parker</span>
+                  <span className="block font-semibold">Pavitra Prabhakar</span>
                 </p>
               </div>
             </div>
