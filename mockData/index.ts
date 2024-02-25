@@ -188,3 +188,30 @@ export const navigationItems = [
     desktopOnly: true,
   },
 ];
+
+export const footerLinks = [
+  {
+    href: "#",
+    label: "Blog",
+  },
+  {
+    href: "#",
+    label: "Help Center",
+  },
+  {
+    href: "#",
+    label: "Feedback",
+  },
+  {
+    href: "#",
+    label: "Code of Conduct",
+  },
+  {
+    href: "#",
+    label: "Privacy",
+  },
+  {
+    href: "#",
+    label: "T&C",
+  },
+];
